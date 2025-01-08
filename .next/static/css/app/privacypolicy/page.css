@@ -1,0 +1,77 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/privacypolicy/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.styles_termsContainer__8ScwH {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.styles_termsHeader__08nO7 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.styles_termsContent__A9lto {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.styles_sectionTitle__uRVJI {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.styles_subsectionTitle__znDjA {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #e6e6e6;
+}
+
+.styles_lastUpdated__w31F6 {
+    color: #999;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.styles_termsContainer__8ScwH a {
+    color: #4a9eff;
+    text-decoration: none;
+}
+
+.styles_termsContainer__8ScwH a:hover {
+    text-decoration: underline;
+}
+
+.styles_termsContainer__8ScwH ul {
+    margin-left: 20px;
+    margin-bottom: 1rem;
+}
+
+.styles_termsContainer__8ScwH p {
+    margin-bottom: 1rem;
+}
+
+.styles_privacyTable__Z6LBL {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.styles_privacyTable__Z6LBL th,
+.styles_privacyTable__Z6LBL td {
+    border: 1px solid #333;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.styles_privacyTable__Z6LBL th {
+    background-color: rgba(255, 255, 255, 0.1);
+} 

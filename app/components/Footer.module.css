@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.footerNav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footerLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: opacity 0.2s ease;
+}
+
+.footerLink:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+} 

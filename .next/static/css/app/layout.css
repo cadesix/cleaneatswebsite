@@ -1,0 +1,99 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/Footer.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__0IXn3 {
+  width: 100%;
+  padding: 1.5rem 0;
+  margin-top: auto;
+}
+
+.Footer_footerNav__bL0bT {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Footer_footerLink__N575X {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: opacity 0.2s ease;
+}
+
+.Footer_footerLink__N575X:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+} 
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px); /* Accounts for footer height */
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.support-content {
+  text-align: center;
+}
+
+.support-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.support-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.support-content a {
+  color: #4a9eff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: opacity 0.2s ease;
+}
+
+.support-content a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
