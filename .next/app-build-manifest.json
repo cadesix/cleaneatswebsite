@@ -12,16 +12,17 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/support/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/support/page.css",
+      "static/chunks/app/support/page.js"
+    ],
     "/privacypolicy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/privacypolicy/page.css",
       "static/chunks/app/privacypolicy/page.js"
-    ],
-    "/support/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/support/page.js"
     ]
   }
 }
