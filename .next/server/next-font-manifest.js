@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/Cade/Desktop/CleanEats/CleanEatsWebsite/app/page\":[\"static/media/eaca542b75d3e13e-s.p.ttf\"],\"/Users/Cade/Desktop/CleanEats/CleanEatsWebsite/app/support/page\":[\"static/media/eaca542b75d3e13e-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/Cade/Desktop/CleanEats/CleanEatsWebsite/app/page\":[\"static/media/eaca542b75d3e13e-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
