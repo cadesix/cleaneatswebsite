@@ -163,6 +163,20 @@ Health data</p>
 Receiving help through our customer support channels;
 Participation in customer surveys or contests; and
 Facilitation in the delivery of our Services and to respond to your inquiries.</p>
+<section className={styles.section}>
+  <h2 className={styles.sectionTitle}>Use of Facial Images for Acne Analysis</h2>
+  <p>
+    We may request permission to use pictures of your face to analyze your acne. 
+    These images are used solely to provide the specific functionality of analyzing 
+    and identifying acne-related issues. We do not store, share, or sell these 
+    images or any data derived from them. All processing is conducted in a secure 
+    and temporary manner, and your images are not retained after the analysis is complete.
+  </p>
+  <p>
+    If you have any questions or concerns about this process, please contact us at{' '}
+    <a href="mailto:support@cleaneats.app">support@cleaneats.app</a>
+  </p>
+</section>
 <p>Sources of Personal Information
 Learn more about the sources of personal information we collect in &quot;WHAT INFORMATION DO WE COLLECT?&quot;</p>
 <p>How We Use and Share Personal Information
