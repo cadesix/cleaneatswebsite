@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'CleanEats',
   description: 'CleanEats application',
   icons: {
-    icon: '/favicon.png',
+    icon: '/assets/favicon.png',
   },
 }
 
