@@ -71,13 +71,60 @@ main {
   min-height: calc(100vh - 80px); /* Accounts for footer height */
 }
 
-.title {
-  font-size: 4rem;
-  font-weight: bold;
-  letter-spacing: -0.02em;
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  color: white;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.content-section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
+.content-section p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+/* Support page styles */
 .support-content {
   text-align: center;
 }
@@ -102,4 +149,15 @@ main {
 .support-content a:hover {
   opacity: 0.8;
   text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content-section h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content-section p {
+    font-size: 1.1rem;
+  }
 }
