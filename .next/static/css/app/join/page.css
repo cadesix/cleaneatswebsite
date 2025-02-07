@@ -1,0 +1,11 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/fonts/fonts.ts","import":"","arguments":[{"src":"./RecklessNeue-BoldItalic.ttf","display":"swap"}],"variableName":"recklessNeue"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'recklessNeue';
+src: url(/_next/static/media/eaca542b75d3e13e-s.p.ttf) format('truetype');
+font-display: swap;
+}@font-face {font-family: 'recklessNeue Fallback';src: local("Arial");ascent-override: 93.95%;descent-override: 20.16%;line-gap-override: 0.00%;size-adjust: 105.14%
+}.__className_f0d714 {font-family: 'recklessNeue', 'recklessNeue Fallback'
+}
+

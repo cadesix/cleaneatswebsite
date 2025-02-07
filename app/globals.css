@@ -108,7 +108,7 @@ main {
 }
 
 .support-content a {
-  color: #4a9eff;
+  color: white;
   text-decoration: none;
   font-size: 1.2rem;
   transition: opacity 0.2s ease;
@@ -128,4 +128,120 @@ main {
   .content-section p {
     font-size: 1.1rem;
   }
+}
+
+.button-container {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+.join-content {
+  text-align: center;
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.join-text {
+  margin-top: 2rem;
+}
+
+.join-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.join-text a {
+  font-size: 1.2rem;  /* Same size as paragraph text */
+}
+
+.contact-info {
+  margin-top: 3rem;
+  padding: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-info a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .join-text p {
+    font-size: 1.1rem;
+  }
+  
+  .contact-info {
+    padding: 1.5rem;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.termsContainer a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.termsContainer a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
