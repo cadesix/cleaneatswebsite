@@ -5,6 +5,9 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'CleanEats',
   description: 'CleanEats application',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
