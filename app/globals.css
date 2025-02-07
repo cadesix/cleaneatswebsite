@@ -36,7 +36,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 80px); /* Accounts for footer height */
+  min-height: calc(100vh - 60px); /* Reduced from 80px */
 }
 
 .hero-section {
@@ -73,8 +73,8 @@ main {
 }
 
 .content-section {
-  min-height: 100vh;
-  padding: 4rem 2rem;
+  min-height: calc(100vh - 60px); /* Match container height */
+  padding: 4rem 2rem 1rem; /* Reduced bottom padding */
   max-width: 800px;
   margin: 0 auto;
 }
@@ -132,41 +132,57 @@ main {
 
 .button-container {
   display: flex;
-  gap: 1.5rem;
   justify-content: center;
   margin-top: 3rem;
 }
 
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem 2rem;
-  background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #BFBFBF;
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
   border-radius: 50px;
   transition: all 0.3s ease;
+  background-color: transparent;
+  width: fit-content;
 }
 
-.button:hover {
+.join-button {
   background-color: white;
   color: black;
+  border: none;
+}
+
+.join-button:hover {
+  opacity: 0.9;
   transform: translateY(-2px);
 }
 
-@media (max-width: 768px) {
-  .button-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
+.app-store-badge {
+  transition: opacity 0.2s ease;
+}
 
-  .button {
+.app-store-badge:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .button-wrapper {
+    gap: 1rem;
     width: 100%;
     max-width: 300px;
-    text-align: center;
   }
 }
 
@@ -245,3 +261,22 @@ a:hover {
   opacity: 0.8;
   text-decoration: underline;
 }
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;  /* Space between content and chevron */
+}
+
+.footer {
+  padding: 1rem 0; /* Reduced padding */
+  margin-top: 0; /* Remove top margin */
+}
+
+/* Update Footer module styles if they exist */
+.footerNav {
+  padding: 0.5rem 1rem; /* Reduced padding */
+}
+
