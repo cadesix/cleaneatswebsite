@@ -26,8 +26,7 @@ export default function Home() {
       </section>
 
       <section className="content-section">
-        <p>Every single person has unique nutritional needs determined by their body, health conditions, activity level, fitness goals, and more - but nutrition labels are generalized. They're also confusing - the average person can't even read them.</p>
-        <p>This confusion is the reason why so many people are unable to solve their health problems, including acne, weight gain, chronic fatigue, poor sleep… the list goes on and on.</p>
+        <p>Every single person has unique nutritional needs determined by their body, health conditions, activity level, fitness goals, and more - but nutrition labels are generalized and confusing.</p>
         <p>CleanEats is the first truly personalized nutrition app. Our mission is to help millions of people make more informed choices about their diet by bringing clarity to today's convoluted food system.</p>
         
         <div className="button-container">
