@@ -71,18 +71,26 @@ main {
 }
 
 .hero-section {
-  height: 100vh;
+  height: 100svh; /* Changed from 100vh to 100svh for mobile-friendly viewport height */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   position: relative;
+  padding-bottom: 2rem; /* Add padding to ensure space for the chevron */
+}
+
+.hero-content {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .scroll-indicator {
-  position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative; /* Changed from absolute to relative */
+  margin-top: auto; /* Push to bottom of flex container */
   font-size: 2rem;
   color: white;
 }
@@ -297,14 +305,6 @@ a:hover {
 .termsContainer a:hover {
   opacity: 0.8;
   text-decoration: underline;
-}
-
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 4rem;  /* Space between content and chevron */
 }
 
 .footer {

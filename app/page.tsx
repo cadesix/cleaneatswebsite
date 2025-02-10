@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image'
-import { recklessNeue } from './fonts/fonts'
+import { recklessNeue, recklessNeueLight } from './fonts/fonts'
 import { FiChevronDown } from 'react-icons/fi'
 import { FaApple } from 'react-icons/fa'
 
@@ -65,9 +65,9 @@ export default function Home() {
           }}
         />
 
-        <p>Our food system is slowly killing us. But why?</p>
-
-        <p>Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
+        <p>
+          Our food system is slowly killing us. <span className={recklessNeueLight.className}>But why?</span><br></br>
+          Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
         <img 
           ref={imgRef}
           src={"/assets/label2.gif"}
@@ -81,7 +81,7 @@ export default function Home() {
           }}
         />
         
-        <p>We built CleanEats as the solution: the first truly personalized nutrition app.</p>
+        <p>We built CleanEats as the solution: the first truly <span className={recklessNeueLight.className}>personalized</span> nutrition app.</p>
 
         <img 
           ref={imgRef}
