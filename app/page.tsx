@@ -1,9 +1,34 @@
+'use client';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image'
 import { recklessNeue } from './fonts/fonts'
 import { FiChevronDown } from 'react-icons/fi'
 import { FaApple } from 'react-icons/fa'
 
 export default function Home() {
+  const [isVisible, setIsVisible] = useState(false);
+  const imgRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      {
+        threshold: 0.1
+      }
+    );
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <section className="hero-section">
@@ -26,7 +51,19 @@ export default function Home() {
       </section>
 
       <section className="content-section">
-        <p>Every single person has unique nutritional needs determined by their body, health conditions, activity level, fitness goals, and more - but nutrition labels are generalized and confusing.</p>
+        <p>Every single person has unique nutritional needs determined by their body, health conditions, activity level, fitness goals, and more - but nutrition labels are generalized. They're also confusing - the average person can't even read them.</p>
+        <img 
+          ref={imgRef}
+          src={isVisible ? "/assets/label2.gif" : "/assets/label2-static.png"}
+          alt="Nutrition Label"
+          style={{
+            width: '100%',
+            maxWidth: '400px',
+            height: 'auto',
+            margin: '0 auto',
+            display: 'block'
+          }}
+        />
         <p>CleanEats is the first truly personalized nutrition app. Our mission is to help millions of people make more informed choices about their diet by bringing clarity to today's convoluted food system.</p>
         
         <div className="button-container">
