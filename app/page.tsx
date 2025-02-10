@@ -51,7 +51,23 @@ export default function Home() {
       </section>
 
       <section className="content-section">
-        <p>Every single person has unique nutritional needs determined by their body, health conditions, activity level, fitness goals, and more - but nutrition labels are generalized. They're also confusing - the average person can't even read them.</p>
+        <p>Every 3 seconds, someone does of a chronic health issue.</p>
+        
+        <img 
+          src="/assets/3seconds.gif"
+          alt="3 Seconds Counter"
+          style={{
+            width: '100%',
+            maxWidth: '400px',
+            height: 'auto',
+            margin: '0 auto',
+            display: 'block'
+          }}
+        />
+
+        <p>Our food system is slowly killing us. But why?</p>
+
+        <p>Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
         <img 
           ref={imgRef}
           src={isVisible ? "/assets/label2.gif" : "/assets/label2-static.png"}
@@ -64,7 +80,21 @@ export default function Home() {
             display: 'block'
           }}
         />
-        <p>CleanEats is the first truly personalized nutrition app. Our mission is to help millions of people make more informed choices about their diet by bringing clarity to today's convoluted food system.</p>
+        
+        <p>We built CleanEats to solve this problem by truly personalizing nutrition.</p>
+
+        <img 
+          ref={imgRef}
+          src={"/assets/analysis.png"}
+          style={{
+            width: '300px',
+            height: 'auto',
+            margin: '0 auto',
+            display: 'block'
+          }}
+        />
+
+        <p>Our mission is to help millions of people make more informed choices about their diet by bringing clarity to today's convoluted food system.</p>
         
         <div className="button-container">
           <div className="button-wrapper">

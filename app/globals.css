@@ -72,10 +72,14 @@ main {
 }
 
 .content-section {
-  min-height: calc(100vh - 60px); /* Match container height */
-  padding: 4rem 2rem 1rem; /* Reduced bottom padding */
+  min-height: calc(100vh - 60px);
+  padding: 6rem 2rem;
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem; /* Adjust this value to control vertical spacing between elements */
+  align-items: center;
 }
 
 .content-section h1 {
