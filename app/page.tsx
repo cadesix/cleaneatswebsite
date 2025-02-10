@@ -81,7 +81,7 @@ export default function Home() {
           }}
         />
         
-        <p>We built CleanEats to solve this problem by truly personalizing nutrition.</p>
+        <p>We built CleanEats as the solution: the first truly personalized nutrition app.</p>
 
         <img 
           ref={imgRef}
