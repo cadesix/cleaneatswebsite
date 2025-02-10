@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       <section className="content-section">
-        <p>Every 3 seconds, someone does of a chronic health issue.</p>
+        <p>Every 3 seconds, someone dies of a chronic health issue.</p>
         
         <img 
           src="/assets/3seconds.gif"
