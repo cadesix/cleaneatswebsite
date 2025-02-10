@@ -70,7 +70,7 @@ export default function Home() {
         <p>Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
         <img 
           ref={imgRef}
-          src={isVisible ? "/assets/label2.gif" : "/assets/label2-static.png"}
+          src={"/assets/label2.gif"}
           alt="Nutrition Label"
           style={{
             width: '100%',
