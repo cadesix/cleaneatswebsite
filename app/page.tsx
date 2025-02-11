@@ -1,33 +1,12 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Image from 'next/image'
-import { recklessNeue, recklessNeueLight } from './fonts/fonts'
+import { recklessNeueLight } from './fonts/fonts'
 import { FiChevronDown } from 'react-icons/fi'
-import { FaApple } from 'react-icons/fa'
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
   const imgRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      {
-        threshold: 0.1
-      }
-    );
-
-    if (imgRef.current) {
-      observer.observe(imgRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <>
@@ -67,10 +46,10 @@ export default function Home() {
 
         <p>
           Our food system is slowly killing us. <span className={recklessNeueLight.className}>But why?</span><br></br>
-          Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
+          Everyone has unique nutritional needs, but nutrition labels are generalized and confusing.</p>
         <img 
           ref={imgRef}
-          src={"/assets/label2.gif"}
+          src={"/assets/label3.gif"}
           alt="Nutrition Label"
           style={{
             width: '100%',
