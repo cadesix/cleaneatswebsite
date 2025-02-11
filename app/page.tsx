@@ -67,7 +67,7 @@ export default function Home() {
 
         <p>
           Our food system is slowly killing us. <span className={recklessNeueLight.className}>But why?</span><br></br>
-          Everyone has unique nutritional needs, but nutrition labels are generalized, opaque, and confusing.</p>
+          Everyone has unique nutritional needs, but nutrition labels are generalized and confusing.</p>
         <img 
           ref={imgRef}
           src={"/assets/label2.gif"}
