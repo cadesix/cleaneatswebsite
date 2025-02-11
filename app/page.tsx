@@ -49,7 +49,7 @@ export default function Home() {
           Everyone has unique nutritional needs, but nutrition labels are generalized and confusing.</p>
         <img 
           ref={imgRef}
-          src={"/assets/label3.gif"}
+          src={"/assets/label4.gif"}
           alt="Nutrition Label"
           style={{
             width: '100%',
