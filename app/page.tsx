@@ -92,10 +92,7 @@ export default function Home() {
             margin: '0 auto',
             display: 'block'
           }}
-        />
-
-        <p>Our mission is to help millions of people make more informed choices about their diet by bringing clarity to today's convoluted food system.</p>
-        
+        />        
         <div className="button-container">
           <div className="button-wrapper">
             <a href="/join" className="button join-button">Join Our Team</a>
