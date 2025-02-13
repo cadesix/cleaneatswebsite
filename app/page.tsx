@@ -71,7 +71,9 @@ export default function Home() {
             margin: '0 auto',
             display: 'block'
           }}
-        />        
+        /> 
+
+        <p className={recklessNeueLight.className}>25,000+ downloads and growing</p>       
         <div className="button-container">
           <div className="button-wrapper">
             <a href="/join" className="button join-button">Join Our Team</a>
