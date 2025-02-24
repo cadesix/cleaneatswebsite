@@ -54,6 +54,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 .scroll-indicator {
@@ -282,5 +285,16 @@ a:hover {
 /* Update Footer module styles if they exist */
 .footerNav {
   padding: 0.5rem 1rem; /* Reduced padding */
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-content {
+    justify-content: flex-start;
+    padding-top: 4rem;
+  }
 }
 

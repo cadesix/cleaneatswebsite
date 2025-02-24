@@ -20,9 +20,16 @@ export default function Home() {
             style={{
               width: '300px',
               height: 'auto',
+              maxWidth: '50%',
             }}
           />
-          <div className={ppMori.className} style={{ marginTop: '2rem', color: 'white', fontSize: '1.5rem' }}>
+          <div className={ppMori.className} style={{ 
+            marginTop: '2rem', 
+            color: 'white', 
+            fontSize: 'clamp(1.1rem, 4vw, 1.5rem)',
+            textAlign: 'center',
+            padding: '0 1rem'
+          }}>
             see how food affects <span className={ppMoriSemiBold.className}>your</span> body
           </div>
           <Image 
@@ -31,9 +38,11 @@ export default function Home() {
             width={400}
             height={400}
             style={{
-              width: '400px',
+              width: '100%',
+              maxWidth: '400px',
               height: 'auto',
-              marginTop: '2rem'
+              marginTop: '2rem',
+              padding: '0 1rem',
             }}
           />
         </div>
