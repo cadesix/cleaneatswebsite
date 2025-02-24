@@ -10,6 +10,16 @@ exports.id = "vendor-chunks/next";
 exports.ids = ["vendor-chunks/next"];
 exports.modules = {
 
+/***/ "(ssr)/./node_modules/next/font/local/target.css?{\"path\":\"app/fonts/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"./PPMori-Regular.otf\",\"display\":\"swap\"}],\"variableName\":\"ppMori\"}":
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/font/local/target.css?{"path":"app/fonts/fonts.ts","import":"","arguments":[{"src":"./PPMori-Regular.otf","display":"swap"}],"variableName":"ppMori"} ***!
+  \*********************************************************************************************************************************************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'ppMori', 'ppMori Fallback'\"},\n\t\"className\": \"__className_b5686f\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2xvY2FsL3RhcmdldC5jc3M/e1wicGF0aFwiOlwiYXBwL2ZvbnRzL2ZvbnRzLnRzXCIsXCJpbXBvcnRcIjpcIlwiLFwiYXJndW1lbnRzXCI6W3tcInNyY1wiOlwiLi9QUE1vcmktUmVndWxhci5vdGZcIixcImRpc3BsYXlcIjpcInN3YXBcIn1dLFwidmFyaWFibGVOYW1lXCI6XCJwcE1vcmlcIn0iLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBLFdBQVcsMkNBQTJDO0FBQ3REO0FBQ0EiLCJzb3VyY2VzIjpbIi9Vc2Vycy9DYWRlL0Rlc2t0b3AvQ2xlYW5FYXRzL0NsZWFuRWF0c1dlYnNpdGUvbm9kZV9tb2R1bGVzL25leHQvZm9udC9sb2NhbC90YXJnZXQuY3NzP3tcInBhdGhcIjpcImFwcC9mb250cy9mb250cy50c1wiLFwiaW1wb3J0XCI6XCJcIixcImFyZ3VtZW50c1wiOlt7XCJzcmNcIjpcIi4vUFBNb3JpLVJlZ3VsYXIub3RmXCIsXCJkaXNwbGF5XCI6XCJzd2FwXCJ9XSxcInZhcmlhYmxlTmFtZVwiOlwicHBNb3JpXCJ9Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcInN0eWxlXCI6IHtcImZvbnRGYW1pbHlcIjpcIidwcE1vcmknLCAncHBNb3JpIEZhbGxiYWNrJ1wifSxcblx0XCJjbGFzc05hbWVcIjogXCJfX2NsYXNzTmFtZV9iNTY4NmZcIlxufTtcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOlswXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/font/local/target.css?{\"path\":\"app/fonts/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"./PPMori-Regular.otf\",\"display\":\"swap\"}],\"variableName\":\"ppMori\"}\n");
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/next/font/local/target.css?{\"path\":\"app/fonts/fonts.ts\",\"import\":\"\",\"arguments\":[{\"src\":\"./RecklessNeue-BoldItalic.ttf\",\"display\":\"swap\"}],\"variableName\":\"recklessNeue\"}":
 /*!************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/font/local/target.css?{"path":"app/fonts/fonts.ts","import":"","arguments":[{"src":"./RecklessNeue-BoldItalic.ttf","display":"swap"}],"variableName":"recklessNeue"} ***!

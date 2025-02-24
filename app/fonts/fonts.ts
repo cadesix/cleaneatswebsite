@@ -8,4 +8,9 @@ export const recklessNeue = localFont({
 export const recklessNeueLight = localFont({
   src: './RecklessNeue-LightItalic.ttf',
   display: 'swap',
+})
+
+export const ppMori = localFont({
+  src: './PPMori-Regular.otf',
+  display: 'swap',
 }) 

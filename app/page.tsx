@@ -1,7 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import Image from 'next/image'
-import { recklessNeueLight } from './fonts/fonts'
+import { recklessNeue, recklessNeueLight, ppMori } from './fonts/fonts'
 import { FiChevronDown } from 'react-icons/fi'
 
 export default function Home() {
@@ -13,15 +13,28 @@ export default function Home() {
       <section className="hero-section">
         <div className="hero-content">
           <Image 
-            src="/assets/logov2.png"
+            src="/assets/logo3.png"
             alt="Logo"
             width={200}
             height={1000}
             style={{
-              width: '200px',
+              width: '300px',
               height: 'auto',
             }}
-            priority
+          />
+          <div className={ppMori.className} style={{ marginTop: '2rem', color: 'white', fontSize: '1.5rem' }}>
+            see how food affects <span style={{ fontWeight: 'bold' }}>your</span> body
+          </div>
+          <Image 
+            src="/assets/hero.png"
+            alt="Hero illustration"
+            width={400}
+            height={400}
+            style={{
+              width: '400px',
+              height: 'auto',
+              marginTop: '2rem'
+            }}
           />
         </div>
         <div className="scroll-indicator">

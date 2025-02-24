@@ -20,3 +20,14 @@ font-display: swap;
 }.__className_d880d2 {font-family: 'recklessNeueLight', 'recklessNeueLight Fallback'
 }
 
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/fonts/fonts.ts","import":"","arguments":[{"src":"./PPMori-Regular.otf","display":"swap"}],"variableName":"ppMori"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'ppMori';
+src: url(/_next/static/media/8f65835aa057b6ed-s.p.otf) format('opentype');
+font-display: swap;
+}@font-face {font-family: 'ppMori Fallback';src: local("Arial");ascent-override: 70.87%;descent-override: 18.90%;line-gap-override: 9.45%;size-adjust: 105.82%
+}.__className_b5686f {font-family: 'ppMori', 'ppMori Fallback'
+}
+
