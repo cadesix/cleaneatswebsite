@@ -13,4 +13,9 @@ export const recklessNeueLight = localFont({
 export const ppMori = localFont({
   src: './PPMori-Regular.otf',
   display: 'swap',
+})
+
+export const ppMoriSemiBold = localFont({
+  src: './PPMori-SemiBold.otf',
+  display: 'swap',
 }) 

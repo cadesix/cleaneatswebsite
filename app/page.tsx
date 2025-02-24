@@ -1,7 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import Image from 'next/image'
-import { recklessNeue, recklessNeueLight, ppMori } from './fonts/fonts'
+import { recklessNeue, recklessNeueLight, ppMori, ppMoriSemiBold } from './fonts/fonts'
 import { FiChevronDown } from 'react-icons/fi'
 
 export default function Home() {
@@ -23,7 +23,7 @@ export default function Home() {
             }}
           />
           <div className={ppMori.className} style={{ marginTop: '2rem', color: 'white', fontSize: '1.5rem' }}>
-            see how food affects <span style={{ fontWeight: 'bold' }}>your</span> body
+            see how food affects <span className={ppMoriSemiBold.className}>your</span> body
           </div>
           <Image 
             src="/assets/hero.png"

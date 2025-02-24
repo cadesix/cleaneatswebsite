@@ -31,3 +31,14 @@ font-display: swap;
 }.__className_b5686f {font-family: 'ppMori', 'ppMori Fallback'
 }
 
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[3].use[2]!./node_modules/next/font/local/target.css?{"path":"app/fonts/fonts.ts","import":"","arguments":[{"src":"./PPMori-SemiBold.otf","display":"swap"}],"variableName":"ppMoriSemiBold"} ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: 'ppMoriSemiBold';
+src: url(/_next/static/media/cb07cb684de218c2-s.p.otf) format('opentype');
+font-display: swap;
+}@font-face {font-family: 'ppMoriSemiBold Fallback';src: local("Arial");ascent-override: 69.72%;descent-override: 18.59%;line-gap-override: 9.30%;size-adjust: 107.57%
+}.__className_7acd3a {font-family: 'ppMoriSemiBold', 'ppMoriSemiBold Fallback'
+}
+
