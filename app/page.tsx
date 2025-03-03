@@ -55,7 +55,7 @@ export default function Home() {
         <p>Every 3 seconds, someone dies of a chronic health issue.</p>
         
         <img 
-          src="/assets/3seconds.gif"
+          src="/assets/3seconds_compressed.gif"
           alt="3 Seconds Counter"
           style={{
             width: '100%',

@@ -1,4 +1,4 @@
-// File: /Users/Cade/Desktop/CleanEats/CleanEatsWebsite/app/page.tsx
+// File: /Users/cade/Desktop/cleaneatswebsite/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
