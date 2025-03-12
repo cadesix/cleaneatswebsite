@@ -30,7 +30,7 @@ export default function Home() {
             textAlign: 'center',
             padding: '0 1rem'
           }}>
-            see how food affects your<span className={ppMoriSemiBold.className}>skin and weight</span>
+            See how food affects your<span className={ppMoriSemiBold.className}> skin and weight</span>
           </div>
           <Image 
             src="/assets/hero.png"
